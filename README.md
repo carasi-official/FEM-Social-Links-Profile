@@ -28,8 +28,8 @@ Take the provided design files and turn them into a web site users can interact 
 
 ### Links
 
-- Solution URL: [Github Repository]( https://github.com/carasi-official/FEM-Blog-Preview-Card)
-- Live Site URL: [Live on Github Pages]( https://carasi-official.github.io/FEM-Blog-Preview-Card/)
+- Solution URL: [Github Repository](https://github.com/carasi-official/FEM-Social-Links-Profile)
+- Live Site URL: [Live on Github Pages](https://carasi-official.github.io/FEM-Social-Links-Profile/)
 
 ## My process
 
