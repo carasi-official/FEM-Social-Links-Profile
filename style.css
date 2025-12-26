@@ -89,7 +89,7 @@ main{
 .button:hover{
     background-color: var(--green);
     color: var(--grey900);
-    cursor: pointer;
+    cursor: url("./assets/images/click.png"), pointer;
 }
 
 footer{
