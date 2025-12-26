@@ -3,32 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
+  <body>
+    <main>
+      <div class="cardContainer">
+        <img class="profilePicture" src="./assets/images/avatar-jessica.jpeg" alt="profile picture">
+        <p class="name">Jessica Randall</p>
+        <p class="location">London, United Kingdom</p>
+        <p class="job">"Front-end developer and avid reader."</p>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
+        <div class="socialLinks">
+          <div class="button">GitHub</div>
+          <div class="button">Frontend Mentor</div>
+          <div class="button">LinkedIn</div>
+          <div class="button">Twitter</div>
+          <div class="button">Instagram</div>
+        </div>
+      </div>
+    </main>
 
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <footer>
+      <div class="credits">
+        <p>Credits</p><div id="arrow">&#x27A4;</div>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/carasi-official">Carasi</a>. Font by <a href="https://github.com/rsms/inter">The Inter Project Authors</a>.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
